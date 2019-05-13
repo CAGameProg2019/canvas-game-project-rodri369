@@ -13,7 +13,7 @@ class Person {
         c.fill();
     }
     dist(arrow){
-        let x = arrow.x - this.x;
+        let x  arrow.x - this.x;
         let y= arrow.y - this.y;
         return Math.sqrt(x*x + y*y);
     }
